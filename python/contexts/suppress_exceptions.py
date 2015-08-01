@@ -28,4 +28,4 @@ try:
     with Suppressor() as context:
         raise Exception()
 except Exception as e:
-    print "The exception was NOT suppressed."
+    print "This never runs, the exception gets surpressed."
