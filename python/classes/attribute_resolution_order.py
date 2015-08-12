@@ -24,20 +24,7 @@ class One(Five):
         self.z = "z"
 
 
-class Callable(object):
-    def __call__(self):
-        print "Hell yea im callable."
-
-
-def callme():
-    print "And so am I."
-
-
 class Tester(unittest.TestCase):
-
-    def test_callable(self):
-        self.assertEqual(callable(Callable()), True)
-        self.assertEqual(callable(callme), True)
 
     def test_variable_order(self):
         obj = One()

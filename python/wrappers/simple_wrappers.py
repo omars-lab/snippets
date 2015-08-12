@@ -1,3 +1,4 @@
+
 def WrapperNamePlusWrapperArgsGoHere(pointful):
     def it_dont_matter_what_you_call_me_but_ill_get_called(_function):
         def the_real_function_that_runs(*args, **kargs):
