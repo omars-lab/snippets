@@ -1,1 +1,1 @@
-exit 0
+echo "$TRAVIS_ENV_VAR" | grep "Hello"
