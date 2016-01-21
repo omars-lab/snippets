@@ -1,0 +1,11 @@
+language: python
+
+# If this key is not specified, travis will use 2.7
+python:
+  - "2.7"
+# command to install dependencies
+# install: "pip install -r requirements.txt"
+
+# command to run tests
+# script: nosetests
+script: bash ./run_tests.sh
