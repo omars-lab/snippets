@@ -1,0 +1,2 @@
+- https://www.digitalocean.com/community/tutorials/how-to-install-go-and-set-up-a-local-programming-environment-on-macos
+- https://golang.org/dl/

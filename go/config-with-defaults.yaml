@@ -1,0 +1,6 @@
+innerconfig:
+  s: "in config"
+  i: 100
+defaultedconfig:
+  s: b
+  i: 2
