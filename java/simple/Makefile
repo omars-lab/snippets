@@ -10,3 +10,7 @@ ${JAR_NAME}: build
 
 run: ${JAR_NAME}
 	java -jar ${JAR_NAME}
+
+test:
+	mvn test
+
