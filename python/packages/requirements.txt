@@ -1,5 +1,5 @@
 docutils==0.12
 nose==1.3.6
-requests==2.20.0
+requests==2.31.0
 termcolor
 
